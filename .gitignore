@@ -6,7 +6,6 @@ __pycache__/
 .pytype/
 
 
-tests/
 models/
 *.db-*
 rasa.db*
