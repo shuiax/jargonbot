@@ -1,6 +1,7 @@
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
 intents:
 - greet
 - goodbye
@@ -12,10 +13,12 @@ intents:
 - contact
 - restart
 - restart_inquisitive
+- prompt_clarification
 - bot_info
 - faq
 - random
-- prompt_clarification
+
+
 responses:
   utter_default:
   - text: Sorry, didn't quite catch that. Can you rephrase?
@@ -44,6 +47,8 @@ responses:
   - text: Ciao!
   utter_grateful:
   - text: Glad I was able to help!
+
+  
 actions:
 - respond_bot_info
 - respond_faq
