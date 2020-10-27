@@ -76,12 +76,9 @@
 - rly
 - nice
 - cool
+- ncie
 
 ## synonym:jargon
 - jargon inc
 - jargon company
 - jargon technologies
-
-
-
-

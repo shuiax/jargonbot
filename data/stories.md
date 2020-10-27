@@ -1,4 +1,3 @@
-
 ## contact
 * contact
   - utter_contact
@@ -44,3 +43,14 @@
 ## random
 * random
   - respond_random
+
+## New Story
+
+* greet
+    - utter_greet
+* random
+    - respond_random
+* doubt
+    - utter_doubt
+* doubt
+    - utter_doubt

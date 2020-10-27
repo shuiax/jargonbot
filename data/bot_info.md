@@ -42,3 +42,6 @@
 - what to ask?
 - what questions can i ask you?
 - what questions can i ask u
+
+## intent:bot_info
+- how are you doing
