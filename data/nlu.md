@@ -70,6 +70,13 @@
 - for example
 - what do you mean
 
+## intent:doubt
+- really
+- u sure
+- rly
+- nice
+- cool
+
 ## synonym:jargon
 - jargon inc
 - jargon company

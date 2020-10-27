@@ -37,6 +37,10 @@
 * faq
   - respond_faq
 
+## doubt
+* doubt
+  - utter_doubt
+
 ## random
 * random
   - respond_random

@@ -17,6 +17,7 @@ intents:
 - bot_info
 - faq
 - random
+- doubt
 
 
 responses:
@@ -48,8 +49,9 @@ responses:
   utter_grateful:
   - text: Glad I was able to help!
 
-  
+
 actions:
 - respond_bot_info
 - respond_faq
 - respond_random
+- utter_doubt

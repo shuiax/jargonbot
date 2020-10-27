@@ -14,6 +14,10 @@
 * faq/download
   - No download is needed! Simply sign up and you'll be able to access the interface! Teams work together online.
 
+## faq
+* faq/documentation_location
+  - The documentation can be found at https://jargon.com/resources/
+
 ## bot_info
 * bot_info/ask_builder 
   -  The amazing people at Jargon!

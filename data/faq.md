@@ -18,3 +18,8 @@
 - do i need to download?
 - download?
 - download needed?
+
+## intent:faq/documentation_location
+- where is the documentation?
+- documentation where to find
+- where do i find documentation
