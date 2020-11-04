@@ -23,3 +23,24 @@
 - where is the documentation?
 - documentation where to find
 - where do i find documentation
+
+## intent:faq/rasa
+- how does jargon work with rasa?
+- what is jargon-rasa integration
+- i want to use rasa
+- can i make a chatbot
+- how to make a chatbot
+
+## intent:faq/frameworks
+- what frameworks does jargon support?
+- what platforms do jargon support?
+
+## intent:faq/studio
+- what is studio?
+- what does studio do
+- studio
+
+## intent:faq/interaction_model
+- what is the interaction model
+- what does the interaction model do
+- interaction model

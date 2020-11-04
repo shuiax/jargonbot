@@ -19,9 +19,17 @@
 * restart
   - utter_restart
 
-## restart_inquisitive
+## happy restart_inquisitive
 * restart_inquisitive
   - utter_restart_inquisitive
+* deny
+  - utter_help
+
+## sad restart_inquisitive
+* restart_inquisitive
+  - utter_restart_inquisitive
+* affirm
+  - utter_restart
 
 ## lead question
 * help

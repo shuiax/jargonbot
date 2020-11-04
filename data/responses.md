@@ -18,6 +18,23 @@
 * faq/documentation_location
   - The documentation can be found at https://jargon.com/resources/
 
+## faq
+* faq/rasa
+  - Jargon allows teams to collaborate to author and edit responses for your Rasa chatbot. You are able to routinely update your content without needing retrain your model. See more on how to start at https://jargon.com/resources/rasa-docs/
+
+## faq
+* faq/frameworks
+  - Jargon supports Google Assistant, Amazon Alexa, Jovo and Rasa.
+
+## faq
+* faq/studio
+  - Studio is the location where your code and responses are stored.
+
+## faq
+* faq/interaction_model
+  - The interaction model is the implementation for authoring utterances and intents. It can be found in Studio.
+
+
 ## bot_info
 * bot_info/ask_builder 
   -  The amazing people at Jargon!
@@ -53,7 +70,7 @@
 
 ## bot_info
 * bot_info/what_to_ask
-  - I can help you with website navigation and also with contacting our team. You may also ask about documentation --- section in progress
+  - I can help you with website navigation and also with contacting our team. You may also ask about documentation --- in progress
 
 ## random
 * random/ask_useridentity

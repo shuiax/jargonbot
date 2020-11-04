@@ -5,7 +5,7 @@ pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
-  - name: SpacyEntityExtractor #use CRFEntityExtractor when more information
+  - name: CRFEntityExtractor
   - name: CountVectorsFeaturizer
     analyzer: "char_wb"
     min_ngram: 1
@@ -13,7 +13,6 @@ pipeline:
   - name: DIETClassifier
     epochs: 100
   - name: EntitySynonymMapper
-  - name: EmbeddingEventClassifier
   - name: ResponseSelector
     retrieval_intent: bot_info
     scale_loss: false
