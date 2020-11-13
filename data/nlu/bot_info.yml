@@ -1,0 +1,80 @@
+version: "2.0"
+nlu:
+- intent: bot_info/ask_builder
+  examples: |
+    - Who built you?
+    - Who created you?
+- intent: bot_info/ask_howbuilt
+  examples: |
+    - How were you built?
+    - How were you created?
+    - By what means were you made?
+    - By what method were you fashioned?
+    - Can you explain how you were created?
+    - Can you give me an idea as to how you were created?
+    - Can you say how you were constructed?
+    - I want to know how you were formed
+    - I'd like to know how you were created
+    - I'd like to know how you were put together
+    - In what manner were you built?
+    - In what manner were you constructed?
+    - In what manner were you formed?
+    - In what way were you made?
+    - In which manner were you devised?
+    - Let me know how you were made exactly
+    - Specify how you were created?
+    - Tell me how you were made?
+    - What process was used to build you?
+    - What process was used to create you?
+    - are you built using jargon?
+    - were you built using rasa?
+- intent: bot_info/ask_howdoing
+  examples: |
+    - How are you?
+    - how are you doing?
+    - what are you up to?
+    - how's life been treating you?
+    - are you alright?
+    - how is your day going
+    - how is your evening
+- intent: bot_info/ask_howold
+  examples: |
+    - how old are you?
+    - what is your age?
+    - what is your birthday
+- intent: bot_info/ask_isbot
+  examples: |
+    - are you a bot?
+    - am I talking to a bot?
+- intent: bot_info/ask_ishuman
+  examples: |
+    - are you a human?
+    - am I talking to a human?
+- intent: bot_info/ask_introduction
+  examples: |
+    - what is your name?
+    - what is ur name?
+    - what are you?
+    - who are you?
+- intent: bot_info/languages
+  examples: |
+    - do you speak other languages?
+    - are you multilingual?
+    - can i change to another language?
+- intent: bot_info/what_to_ask
+  examples: |
+    - what should i ask you?
+    - what should i ask u?
+    - what can u do?
+    - what can you do?
+    - what do you do?
+    - what to ask?
+    - what questions can i ask you?
+    - what questions can i ask u
+    - what can you tell me?
+    - what else can i do
+    - what are all the things you understand?
+    - what next
+    - show me what's possible
+    - what can you do for me
+    - what can you tell me

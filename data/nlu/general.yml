@@ -1,0 +1,187 @@
+version: "2.0"
+nlu:
+- intent: affirm
+  examples: |
+    - Accept
+    - yes
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - perfect
+    - good
+    - Awesome!
+    - Good
+    - Great
+    - I accept
+    - I agree
+    - I changed my mind. I want to accept it
+    - agreed
+    - ah ok
+    - alright
+    - confirm
+    - done
+    - fine
+    - go
+    - go ahead
+    - go for it
+    - sure
+    - sure thing
+    - sure!
+    - that is cool
+    - that ok
+    - that sounds fine
+    - that's great
+    - thats fine
+    - thats good
+    - thats great
+    - sounds good!
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nevermind
+    - I don't want to
+    - I don't want to give it to you
+    - I don't want to say
+    - I dont want to tell
+    - I'm not giving you my email address
+    - I'm not going to give it to you
+    - nah
+    - No thank you
+    - absolutely not
+    - decline
+    - definitely not
+    - deny
+    - i decline
+    - i don't want either of those
+    - i don't want to
+    - nah I'm good
+    - nah not for me
+    - I don't agree
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - whats up
+    - hey there
+    - good morning
+    - good evening
+    - hey
+    - hey there
+- intent: goodbye
+  examples: |
+    - Bye
+    - Bye bye
+    - adios
+    - bye bot
+    - bye bye bot
+    - bye for now
+    - see you around
+    - see you later
+    - bye was nice talking to you
+    - catch you later
+    - ciao
+    - cya
+    - farewell
+    - good bye
+    - good bye rasa bot!
+    - good night
+    - goodbye
+    - goodnight
+    - gotta go
+    - ok bye
+    - see u later
+    - see ya
+    - see you
+    - take care
+- intent: prompt_clarification
+  examples: |
+    - such as
+    - for example
+    - what do you mean
+    - can you elaborate
+    - could you explain why you need that
+    - could you tell me more
+    - explain it to me
+    - explain that
+    - i want more information
+    - i would like to know why you need that
+    - please elaborate
+    - please explain
+    - why do you need to know that
+    - why is that necessary
+    - give me more details
+    - why
+    - what does that mean
+    - how come?
+- intent: grateful
+  examples: |
+    - thanks
+    - i appreciate it
+    - that was helpful
+    - amazing, thanks
+    - cheers
+    - cool thank you
+    - cool thanks
+    - great thanks
+    - ok thanks
+    - perfect thank you
+- intent: doubt
+  examples: |
+    - really
+    - u sure
+    - you sure
+    - rly
+- intent: stop
+  examples: |
+    - ok i guess you can't help me
+    - ok then you cant help me
+    - ok, but that doesnt help me
+    - stop
+    - stop go back
+    - stop this conversation
+    - you're not helping
+    - that's not what i want
+    - this conversation is not really helpful
+    - this is leading to nothing
+    - you can't help me with what i need
+    - you cant help me
+    - quit
+    - that does not help
+    - that's not what I want to do
+    - wait stop
+    - you're no help
+    - this is no help at all
+- intent: help
+  examples: |
+    - i need help
+    - im confused
+    - help
+- intent: contact
+  examples: |
+    - contact
+    - i want to book a call
+    - i want to make a call
+    - call
+    - i want to talk to sales
+- intent: restart
+  examples: |
+    - restart
+    - i want to restart
+    - restart conversation
+- intent: restart_inquisitive
+  examples: |
+    - how do i restart?
+    - can i restart?
+    - will you restart?
+    - are you able to restart?
+- synonym: jargon
+  examples: |
+    - jargon inc
+    - jargon company
+    - jargon technologies

@@ -11,7 +11,8 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 100
+    epochs: 200
+  - name: RegexEntityExtractor
   - name: EntitySynonymMapper
   - name: ResponseSelector
     retrieval_intent: bot_info
@@ -22,12 +23,20 @@ pipeline:
   - name: ResponseSelector
     retrieval_intent: random
     scale_loss: false
+  - name: FallbackClassifier
+    threshold: 0.7
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
-    max_history: 5
-    epochs: 100
+    max_history: 10
+    epochs: 20
   - name: MappingPolicy
+  - max_history: 6
+  name: AugmentedMemoizationPolicy
+  - name: RulePolicy
+    core_fallback_threshold: 0.4 #confidence threshold, if <0.4, will employ fallback
+    core_fallback_action_name: "action_default_fallback"
+    enable_fallback_prediction: True

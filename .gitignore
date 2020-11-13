@@ -10,6 +10,7 @@ __pycache__/
 rasa.db*
 *.db
 ngrok*
+credentials.yml
 
 
 

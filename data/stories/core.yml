@@ -1,0 +1,51 @@
+version: "2.0"
+stories:
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- story: grateful
+  steps:
+  - intent: grateful
+  - action: utter_grateful
+- story: contact
+  steps:
+  - intent: contact
+  - action: utter_contact
+- story: restart
+  steps:
+  - intent: restart
+  - action: utter_restart
+- story: bot_info
+  steps:
+  - intent: bot_info
+  - action: utter_bot_info
+- story: faq
+  steps:
+  - intent: faq
+  - action: utter_faq
+- story: doubt
+  steps:
+  - intent: doubt
+  - action: utter_doubt
+- story: random
+  steps:
+  - intent: random
+  - action: utter_random
+- story: happy restart_inquisitive
+  steps:
+  - intent: restart_inquisitive
+  - action: utter_restart_inquisitive
+  - intent: deny
+  - action: utter_help
+- story: unhappy restart_inquisitive
+  steps:
+  - intent: restart_inquisitive
+  - action: utter_restart_inquisitive
+  - intent: affirm
+  - action: action_restart
+  - action: utter_restart

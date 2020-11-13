@@ -14,44 +14,26 @@ intents:
 - restart
 - restart_inquisitive
 - prompt_clarification
+- doubt
 - bot_info
 - faq
 - random
-- doubt
 
 
 responses:
   utter_default:
   - text: Sorry, didn't quite catch that. Can you rephrase?
-  utter_greet:
-  - text: Hey!
-  - text: Howdy!
-  - text: Hi!
-  utter_contact:
-  - text: Contact us through the mailing form above in the headers.
-  utter_help:
-  - text: What do you need help on? You can ask me questions, look at [documentation](https://jargon.com/resources/),
-      or contact our team.
-  utter_restart:
-  - text: Restart successful!
-  - text: I have been restarted!
-  utter_restart_inquisitive:
-  - buttons:
-    - payload: /affirm
-      title: Yes
-    - payload: /deny
-      title: No
-    text: Of course you can restart! Do you want to restart?
-  utter_goodbye:
-  - text: See you later!
-  - text: Goodbye!
-  - text: Ciao!
-  utter_grateful:
-  - text: Glad I was able to help!
 
 
 actions:
 - respond_bot_info
 - respond_faq
 - respond_random
+- utter_greet
+- utter_contact
+- utter_help
+- utter_restart
+- utter_restart_inquisitive
+- utter_goodbye
+- utter_grateful
 - utter_doubt

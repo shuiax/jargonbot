@@ -1,0 +1,81 @@
+version: "2.0"
+nlu:
+- intent: random/ask_useridentity
+  examples: |
+    - Who am I?
+    - do you know who i am?
+- intent: random/ask_username
+  examples: |
+    - What is my name?
+    - my name?
+    - tell me my name
+- intent: random/ask_weather
+  examples: |
+    - What is the weather?
+    - Do you know the weather?
+    - Are there any meteorological changes that I need to be aware of?
+    - How is weather today
+    - Is it hot or cold?
+    - Is it humid out there today?
+    - Is it quite breezy outside?
+    - Is it raining
+    - Can I ask you something about weather
+    - weather?    
+- intent: random/ask_time
+  examples: |
+    - What time is it?
+    - do you know the time?
+    - time
+    - what is time
+    - can you tell me the time
+    - can you give me the time
+- intent: random/nicetomeetyou
+  examples: |
+    - Nice to meet you
+    - nice to meet u
+    - great to meet you
+- intent: random/smalltalk
+    - Beautiful day, isn't it?
+    - Looks like a beautiful day hey?
+    - Nice day out today?
+- intent: random/non_english
+  examples: |
+    - Wie fange ich mit jargon an?
+    - hilf mir beim start
+    - tschüssikowski
+    - ¿Qué pasa?
+    - ça va ?
+    - como te llamas
+    - wer bist Du?
+    - como inicio en jargon
+    - come stai?
+    - como estas
+    - de donde eres
+    - de que lugar eres?
+    - epdi iruka
+    - eres humana
+    - kalhmera sara ti kaneis
+    - kannst du auch deutsch?
+    - kannst du dies auch auf deutsch?
+    - oui je besoine de l'aide
+    - que puedes hacer?
+    - tu parles francais?
+    - tudo bom
+    - tu pagal
+    - kannst du mir helfen
+    - tu kaisi he
+    - こにちは
+    - 日本語分かる？
+    - chào
+    - 你好
+    - 呵呵
+    - 我该如何使用
+    - 你懂中文吗？
+    - 您好
+    - 你叫什么名字
+    - 你是谁
+    - 中文
+    - kya hindi me bat kar sakate ho
+    - Dumme sara
+    - αστεία λές
+    - rasa codigo abierto

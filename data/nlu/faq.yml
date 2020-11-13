@@ -1,0 +1,92 @@
+version: "2.0"
+nlu:
+- intent: faq/is_programming_required
+  examples: |
+    - is programming required?
+    - do i need to know a programming language?
+    - i don't know how to program
+    - i've never learned programming
+    - what programming language do i need to know
+    - what python version should i use
+    - Does jargon require programming knowledge
+    - Do I need programming skills to develop a chatbot in jargon
+    - do I need programming experience to use jargon
+    - programming language use
+    - what programming languge do i use
+    - How do I do the programming?
+    - i have never programed before
+- intent: faq/languages
+  examples: |
+    - can i make an app in another language?
+    - does jargon support other languages?
+    - what languages does jargon support?
+    - what languages are available?
+    - does rasa support other language beside english?
+    - how to build rasa with different languages?
+- intent: faq/cost
+  examples: |
+    - is it free?
+    - how much does it cost?
+    - how much is jargon?
+    - what does it cost?
+    - are you free?
+    - how much do you cost?
+    - what is the cost of jargon?
+    - what is the pricing?
+    - what is the enterprise pricing?
+    - Are you free?
+    - do you cost anything?
+    - I want to learn more about the pricing
+    - I would like to know the cost first.
+    - Subscription cost?
+    - Subscription price
+    - What does jargon cost?
+    - What is the price ?
+    - Whats the cost?
+    - are you really free?
+    - can you tell me prices
+    - cost
+- intent: faq/tutorial
+  examples: |
+    - where is tutorial
+    - tutorial
+    - i need a good tutorial
+    - can you lead me to the tutorials
+    - basic tutorial
+    - do you have a demo?
+    - where is the demo?
+    - where can i watch video?
+- intent: faq/download
+  examples: |
+    - do i need to download?
+    - download?
+    - download needed?
+    - installation?
+    - how do i install
+    - how do i download
+- intent: faq/documentation_location
+  examples: |
+    - where is the documentation?
+    - documentation where to find
+    - where do i find documentation
+- intent: faq/rasa
+  examples: |
+    - how does jargon work with rasa?
+    - what is jargon-rasa integration
+    - i want to use rasa
+    - can i make a chatbot
+    - how to make a chatbot
+- intent: faq/frameworks
+  examples: |
+    - what frameworks does jargon support?
+    - what platforms do jargon support?
+- intent: faq/studio
+  examples: |
+    - what is studio?
+    - what does studio do
+    - studio
+- intent: faq/interaction_model
+  examples: |
+    - what is the interaction model
+    - what does the interaction model do
+    - interaction model
