@@ -53,6 +53,10 @@ stories:
   steps:
   - intent: why_jargon
   - action: utter_why_jargon
+- story: help
+  steps:
+  - intent: help
+  - action: utter_help
 
 - story: respond to FAQs
   steps:
