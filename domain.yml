@@ -34,9 +34,6 @@ responses:
 
 
 actions:
-- respond_bot_info
-- respond_faq
-- respond_random
 - utter_greet
 - utter_contact
 - utter_help
