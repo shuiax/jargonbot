@@ -1,3 +1,5 @@
+version: "2.0"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -15,6 +17,12 @@ intents:
 - restart_inquisitive
 - prompt_clarification
 - doubt
+- technical_question
+- enter_data
+- human_handoff
+- signup_newsletter
+- started
+- why_jargon
 - bot_info
 - faq
 - random
@@ -22,7 +30,7 @@ intents:
 
 responses:
   utter_default:
-  - text: Sorry, didn't quite catch that. Can you rephrase?
+  - text: default
 
 
 actions:
@@ -37,3 +45,5 @@ actions:
 - utter_goodbye
 - utter_grateful
 - utter_doubt
+- utter_why_jargon
+- utter_anything_else

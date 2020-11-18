@@ -1,59 +1,57 @@
 version: "2.0"
 responses:
-  utter_faq/why_jargon:
-    - text: "Jargon provides a CMS for conversational experiences. With Jargon, non-developers can join into collaboration into constructing complex, dynamic chatbots."
   utter_faq/is_programming_required:
-    - text: Nope! Jargon is specifically created such that teams, not just programmers, can work together on a complex conversational app! You only need to know how to use the Internet :)
-  utter_faq/languages:
-    - text: Jargon supports many languages! When you are creating your project, make sure to check to see which locales are offered. It may vary by platform.
+    - text: "Nope! Jargon is specifically created such that teams, not just programmers, can work together on a complex conversational app! You only need to know how to use the Internet :)"
+  utter_faq/possible_languages:
+    - text: "Jargon supports many languages! When you are creating your project, make sure to check to see which locales are offered. It may vary by platform."
   utter_faq/cost:
-    - text: Jargon is completely free! However, if you'd like to discuss enterprise options, contact us.
+    - text: "Jargon is completely free! However, if you'd like to discuss enterprise options, contact us."
   utter_faq/tutorial:
-    - text: You can find the demo at https://jargon.com/product/
+    - text: "You can find the demo at https://jargon.com/product/"
   utter_faq/download:
-    - text: No download nor installation is needed! Simply sign up and you'll be able to access the interface at https://platform.jargon.com!
+    - text: "No download nor installation is needed! Simply sign up and you'll be able to access the interface at https://platform.jargon.com!"
   utter_faq/documentation_location:
-    - text: The documentation can be found at https://jargon.com/resources/
+    - text: "The documentation can be found at https://jargon.com/resources/"
   utter_faq/rasa:
-    - text: Jargon allows teams to collaborate to author and edit responses for your Rasa chatbot. You are able to routinely update your content without needing retrain your model. See more on how to start at https://jargon.com/resources/rasa-docs/
+    - text: "Jargon allows teams to collaborate to author and edit responses for your Rasa chatbot. You are able to routinely update your content without needing retrain your model. See more on how to start at https://jargon.com/resources/rasa-docs/"
   utter_faq/frameworks:
-    - text: Jargon supports Google Assistant, Amazon Alexa, Jovo and Rasa.
+    - text: "Jargon supports Google Assistant, Amazon Alexa, Jovo and Rasa."
   utter_faq/studio:
-    - text: Studio is the location where your code and responses are stored.
+    - text: "Studio is the location where your code and responses are stored."
   utter_faq/interaction_model:
-    - text: The interaction model is the implementation for authoring utterances and intents. It can be found in Studio.
+    - text: "The interaction model is the implementation for authoring utterances and intents. It can be found in Studio."
   utter_bot_info/ask_builder:
-    - text: The amazing people at Jargon!
+    - text: "The amazing people at Jargon!"
   utter_bot_info/ask_howbuilt:
-    - text: I was built using the integration of Jargon and Rasa.
+    - text: "I was built using the integration of Jargon and Rasa."
   utter_bot_info/ask_howdoing:
-    - text: I'm doing good! Thanks for asking
+    - text: "I'm doing good! Thanks for asking"
   utter_bot_info/ask_howold:
-    - text: I'm a young bot. I was made not so far in the near past.
+    - text: "I'm a young bot. I was made not so far in the near past."
   utter_bot_info/ask_isbot:
-    - text: Yes, I am a bot!
-    - text: I am indeed a bot!
+    - text: "Yes, I am a bot!"
+    - text: "I am indeed a bot!"
   utter_bot_info/ask_ishuman:
-    - text: I'm not a human, but a bot!
+    - text: "I'm not a human, but a bot!"
   utter_bot_info/ask_introduction:
-    - text: I am JargonBot!
-  utter_bot_info/languages:
-    - text: Unfortunately, I currently only speak English.
+    - text: "I am JargonBot!"
+  utter_bot_info/bot_languages:
+    - text: "Unfortunately, I currently only speak English."
   utter_bot_info/what_to_ask:
-    - text: I can help you with website navigation and also with contacting our team. You may also ask about documentation --- in progress
+    - text: "I can help you with website navigation and also with contacting our team. You may also ask about technical questions."
   utter_random/ask_useridentity:
-    - text: Perhaps Descartes will have an answer to your question
+    - text: "Perhaps Descartes will have an answer to your question."
   utter_random/ask_username:
-    - text: We don't store such information
+    - text: "We don't store such information."
   utter_random/ask_weather:
-    - text: I'm not sure about where you are, but here, it's always raining!
+    - text: "I'm not sure about where you are, but here, it's always raining!"
   utter_random/ask_time:
-    - text: Time varies all across the globe
+    - text: "Time varies all across the globe"
   utter_random/nicetomeetyou:
-    - text: Likewise!
-    - text: Nice to meet you as well!
+    - text: "Likewise!"
+    - text: "Nice to meet you as well!"
   utter_random/smalltalk:
-    - text: Yep!
-    - text: Indeed!
+    - text: "Yep!"
+    - text: "Indeed!"
   utter_random/non_english:
-    - text: Sorry, I only understand English.
+    - text: "Sorry, I only understand English."

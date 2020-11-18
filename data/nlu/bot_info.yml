@@ -30,11 +30,11 @@ nlu:
     - were you built using rasa?
 - intent: bot_info/ask_howdoing
   examples: |
-    - How are you?
-    - how are you doing?
-    - what are you up to?
-    - how's life been treating you?
-    - are you alright?
+    - How are you
+    - how are you doing
+    - what are you up to
+    - how's life been treating you
+    - are you alright
     - how is your day going
     - how is your evening
 - intent: bot_info/ask_howold
@@ -56,7 +56,7 @@ nlu:
     - what is ur name?
     - what are you?
     - who are you?
-- intent: bot_info/languages
+- intent: bot_info/bot_languages
   examples: |
     - do you speak other languages?
     - are you multilingual?

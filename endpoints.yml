@@ -45,6 +45,6 @@ nlg:
   url: https://cs-aws-us-east-1.jargoncontent.net/rasa/nlg
   headers:
     x-jargon-project: JP1150F600AA0
-    x-jargon-contentinterface: JI5D3DE65FEC
+    x-jargon-contentinterface: JI6FE391C568
     x-jargon-locale: en-US
     x-jargon-tag: staging

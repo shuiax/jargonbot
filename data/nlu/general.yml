@@ -162,13 +162,6 @@ nlu:
     - i need help
     - im confused
     - help
-- intent: contact
-  examples: |
-    - contact
-    - i want to book a call
-    - i want to make a call
-    - call
-    - i want to talk to sales
 - intent: restart
   examples: |
     - restart

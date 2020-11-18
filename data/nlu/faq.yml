@@ -15,7 +15,7 @@ nlu:
     - what programming languge do i use
     - How do I do the programming?
     - i have never programed before
-- intent: faq/languages
+- intent: faq/possible_languages
   examples: |
     - can i make an app in another language?
     - does jargon support other languages?
@@ -56,6 +56,8 @@ nlu:
     - do you have a demo?
     - where is the demo?
     - where can i watch video?
+    - where can i find a demo
+    - where is the demo
 - intent: faq/download
   examples: |
     - do i need to download?
@@ -80,6 +82,8 @@ nlu:
   examples: |
     - what frameworks does jargon support?
     - what platforms do jargon support?
+    - what framworks are used
+    - what platforms can be used
 - intent: faq/studio
   examples: |
     - what is studio?

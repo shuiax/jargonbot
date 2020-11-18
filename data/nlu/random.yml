@@ -35,6 +35,7 @@ nlu:
     - nice to meet u
     - great to meet you
 - intent: random/smalltalk
+  examples: |
     - Beautiful day, isn't it?
     - Looks like a beautiful day hey?
     - Nice day out today?

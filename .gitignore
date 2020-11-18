@@ -4,6 +4,9 @@ __pycache__/
 .vscode/
 .history/
 .pytype/
+models/
+results/
+venv/
 
 
 *.db-*
@@ -11,7 +14,7 @@ rasa.db*
 *.db
 ngrok*
 credentials.yml
-
+endpoints.yml
 
 
 
